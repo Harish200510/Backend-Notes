@@ -1,0 +1,9 @@
+Routes:
+     ->Routes is very usefull one suppose we want to create a REST api in the index.js file it looks clumsy and ugly so we can put all the 
+request methods in the routes folder inside a file and export that route so that index.js file can import and use that
+     ->for exmaple if you are creating api for the  movies app there may be different section accounts,movies
+so for each section we can create different route 
+      ->use middleware(use) in the main file 
+
+Controller:
+      ->We can write the logic in the controller and import the routes files to get the (req,res)=>{} 
