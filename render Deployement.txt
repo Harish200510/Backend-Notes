@@ -1,0 +1,10 @@
+->Open Render using github account
+->Click new web services in ADD new
+->Click the Repository where the project was there
+->In the "Start command" add the commend like how you will start the server like "npm start" or "npm run dev"  or keep it as node "filename".js
+->In bottom "Environment Variable" click ADD .env file copy past all the thinf which are there in the .env file in your project
+->After that press ADD deploy button
+->Make sure the that you config the render ip in mongodb network access to do that in render while deploying on top you can see the conncet button if you click that you can see the ip addresss cpoy that
+  and go the mongodb and and go to the database which are you using for this project and click the network access and click the add ipadress
+  add the ip adress one by one 
+->Then go back to the render your project will be deployed 
