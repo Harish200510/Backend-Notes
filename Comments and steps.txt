@@ -41,7 +41,8 @@ Basic:
 8)npm i dotenv
       ->it use to hide the sensitive data like database connection string to do that create a .env file and store the sensitive data in .env file 
       ->to use the sensitive data from .env file use "import dotenv from 'dotenv'" where you are using this sensitive data
-	->and config that .env file throug dotenv.config()
+      ->and config that .env file throug dotenv.config()
+      ->Also don't forget to create a .env.example file to create a structure of the .env file because you won't deploy the .env file if new developer come and saw they can't understand that  
 
  
 
