@@ -1,0 +1,42 @@
+Basic:
+     site default name:http://localhost:8000
+     ->npx kill-port 6969 -(If someone is using this port it will kill that port and allow us to use that port)
+
+
+1)How to create a new project in cmd (This is How you should create a new project)
+        ->First add comment cd C:\Users\hi\OneDrive\Desktop this commend because we are going to create folder in desktop 
+	->mkdir folder-name  -> this commend will create a new folder 
+	->code . ->This commend will open that folder in the Vscode
+
+
+2)npm i nodemon --save-dev 
+            ->(This will make sure it will download nodemon in development we don't need nodemon after deployment make sure this --save-dev must for good project)
+             ->After installing the nodemon in your project in package.json file under "script" remove "test":"xxxxxx"  and add this "start":"nodemon filename.js" (to run npm start) or dev:"nodemon filename.js" (to start npm run dev)
+
+3)npm init
+           ->It wil create a package.json file for us, This commend will ask you a question while creating a package.json file
+    (or)
+  npm init -y
+          ->It will also create a package.json file but the difference is it will not ask question while creating the package.json file 
+
+4)npm i mongoose 
+    	  ->whenever you are working with the mongodb is this and download 
+
+5)npm i multer
+	->Whenever you want to upload image in the server download multer package
+
+6)npm i express
+   	->use this to download the express package to download the express in your project
+        ->Express site=(https://expressjs.com/)
+
+7)ADD CODE IN THE GITHUB
+
+         first commend->git init
+         second commend->git add .(Adding current directory)
+	 Third commend-> git commit -m "init" (committing the code and giving the comment "init")
+	 Fourth step->Create a repository in the GitHub (Whatever the name is there in the package.json file give that name itself for the GitHub repository name it is a good practice)
+	 Fifth Step-> After creating the repository whatever the commend in the "OR push an existing repository from the command line" paste that comments one by one in the vscode
+ ->After following all these steps then you can see your code in the GitHub 
+
+ 
+
