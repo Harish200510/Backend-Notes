@@ -7,3 +7,5 @@ so for each section we can create different route
 
 Controller:
       ->We can write the logic in the controller and import the routes files to get the (req,res)=>{} 
+
+
